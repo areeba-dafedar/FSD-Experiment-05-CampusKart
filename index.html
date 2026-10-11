@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusKart - Student Shopping</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-emerald-50 text-slate-800">
+
+  <nav class="bg-emerald-950 px-6 py-4 text-white flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+    <h1 class="text-2xl font-bold">Campus<span class="text-orange-400">Kart</span></h1>
+    <div class="flex items-center gap-6">
+      <a href="#shop" class="hover:text-orange-400">Shop</a>
+      <a href="#footer" class="hover:text-orange-400">Contact</a>
+      <a href="#shop" class="rounded-full bg-orange-500 px-4 py-2 hover:bg-orange-600">Cart (0)</a>
+    </div>
+  </nav>
+
+  <section class="m-4 flex flex-col items-center justify-between gap-6 rounded-2xl bg-gradient-to-r from-emerald-800 to-green-600 p-8 text-white sm:m-6 md:flex-row md:p-12">
+    <div>
+      <p class="mb-3 font-semibold uppercase tracking-widest text-orange-300">Back to College Sale</p>
+      <h2 class="mb-4 text-3xl font-extrabold sm:text-5xl">Smart Shopping.<br>Better Studying.</h2>
+      <p class="mb-6 text-emerald-100">Everything you need for campus life at student-friendly prices.</p>
+      <a href="#shop" class="inline-block rounded-lg bg-orange-500 px-6 py-3 font-bold text-white hover:bg-orange-600">Shop Now</a>
+    </div>
+    <img src="https://placehold.co/300x260/d9f99d/064e3b?text=CampusKart" alt="CampusKart sale" class="w-full max-w-xs rounded-xl object-cover">
+  </section>
+
+  <section class="grid grid-cols-1 gap-4 px-4 sm:grid-cols-3 sm:px-6">
+    <div class="rounded-xl bg-white p-5 text-center shadow-sm">
+      <h3 class="mb-2 font-bold text-emerald-800">🚚 Free Delivery</h3>
+      <p class="text-sm text-slate-600">On selected orders</p>
+    </div>
+    <div class="rounded-xl bg-white p-5 text-center shadow-sm">
+      <h3 class="mb-2 font-bold text-emerald-800">↩️ 7-Day Returns</h3>
+      <p class="text-sm text-slate-600">Easy return policy</p>
+    </div>
+    <div class="rounded-xl bg-white p-5 text-center shadow-sm">
+      <h3 class="mb-2 font-bold text-emerald-800">💵 COD Available</h3>
+      <p class="text-sm text-slate-600">Pay when you receive</p>
+    </div>
+  </section>
+
+  <section id="shop" class="px-4 py-10 sm:px-6">
+    <div class="mb-6 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+      <div>
+        <p class="font-semibold uppercase tracking-wider text-emerald-700">Our Collection</p>
+        <h2 class="text-3xl font-extrabold text-emerald-950">Popular Products</h2>
+      </div>
+      <p class="text-sm text-slate-500">Essentials for every student</p>
+    </div>
+
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+
+      <div class="overflow-hidden rounded-xl bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80" alt="Campus Backpack" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <h3 class="font-bold">Campus Backpack</h3>
+          <p class="my-2 text-lg font-extrabold text-emerald-800">₹799</p>
+          <button class="w-full rounded-lg bg-emerald-800 py-2 text-white hover:bg-orange-500">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-xl bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+        <img src="https://giftsoflove.in/cdn/shop/files/Gifts_of_Love_Crisp_A5_Notebook.jpg?v=1738486378&width=1080" alt="Notebook Set" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <h3 class="font-bold">Notebook Set</h3>
+          <p class="my-2 text-lg font-extrabold text-emerald-800">₹199</p>
+          <button class="w-full rounded-lg bg-emerald-800 py-2 text-white hover:bg-orange-500">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-xl bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+        <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=600&q=80" alt="Water Bottle" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <h3 class="font-bold">Water Bottle</h3>
+          <p class="my-2 text-lg font-extrabold text-emerald-800">₹349</p>
+          <button class="w-full rounded-lg bg-emerald-800 py-2 text-white hover:bg-orange-500">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-xl bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+        <img src="https://rukminim3.flixcart.com/image/480/640/xif0q/headphone/r/m/r/wireless-on-ear-bluetooth-headphones-with-mic-upto-12hours-original-imahy3ue2nyrc9ab.jpeg?q=90" alt="Wireless Headphones" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <h3 class="font-bold">Wireless Headphones</h3>
+          <p class="my-2 text-lg font-extrabold text-emerald-800">₹599</p>
+          <button class="w-full rounded-lg bg-emerald-800 py-2 text-white hover:bg-orange-500">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-xl bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+        <img src="https://images.unsplash.com/photo-1587145820266-a5951ee6f620?auto=format&fit=crop&w=600&q=80" alt="Scientific Calculator" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <h3 class="font-bold">Scientific Calculator</h3>
+          <p class="my-2 text-lg font-extrabold text-emerald-800">₹699</p>
+          <button class="w-full rounded-lg bg-emerald-800 py-2 text-white hover:bg-orange-500">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-xl bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+        <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80" alt="Study Desk Lamp" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <h3 class="font-bold">Study Desk Lamp</h3>
+          <p class="my-2 text-lg font-extrabold text-emerald-800">₹449</p>
+          <button class="w-full rounded-lg bg-emerald-800 py-2 text-white hover:bg-orange-500">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-xl bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+        <img src="https://femora.in/cdn/shop/files/81TP2dHq1TL._SL1500.jpg?v=1692009352" alt="Lunch Box" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <h3 class="font-bold">Lunch Box</h3>
+          <p class="my-2 text-lg font-extrabold text-emerald-800">₹299</p>
+          <button class="w-full rounded-lg bg-emerald-800 py-2 text-white hover:bg-orange-500">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-xl bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyOXjuq5syQf-M0YL2VIz2EY2Rzbwk8SROgSdRZFkLEuiEdesqlPdmLA4w&s=10" alt="Sticky Notes Pack" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <h3 class="font-bold">Sticky Notes Pack</h3>
+          <p class="my-2 text-lg font-extrabold text-emerald-800">₹99</p>
+          <button class="w-full rounded-lg bg-emerald-800 py-2 text-white hover:bg-orange-500">Add to Cart</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer" class="bg-emerald-950 px-6 py-6 text-center text-white">
+    <p>© 2026 CampusKart. Made for student life.</p>
+    <div class="mt-3 flex justify-center gap-6 text-sm">
+      <a href="#shop" class="hover:text-orange-400">About</a>
+      <a href="mailto:campuskart@example.com" class="hover:text-orange-400">Contact</a>
+    </div>
+  </footer>
+
+</body>
+</html>
